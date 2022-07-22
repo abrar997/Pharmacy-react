@@ -1,0 +1,65 @@
+$main: rgba(5, 4, 4, 0.815);
+
+.dashboard {
+  width: 99%;
+  scroll-behavior: smooth;
+  .sidebar {
+    background-color: $main;
+    // width: 270px;
+    height: 100%;
+
+    ul {
+      list-style-type: none;
+      text-align: center;
+    }
+    li:hover {
+      background-color: rgba(128, 128, 128, 0.363);
+      width: 120px;
+    }
+    li {
+      padding: 3px !important;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    a:hover {
+      color: rgb(197, 195, 195) !important;
+    }
+    a {
+      text-decoration: none;
+      color: #eee;
+    }
+    a:hover {
+      color: gray;
+    }
+  }
+  h3 {
+    text-shadow: 2px 1px 1px rgba(0, 128, 0, 0.541);
+    text-transform: capitalize;
+  }
+  .users-table {
+    th {
+      text-transform: capitalize;
+    }
+    td {
+      font-size: 12px;
+    }
+
+    .btn {
+      font-size: 10px;
+    }
+  }
+}
+
+.add-categ {
+  label {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  input {
+    font-size: 14px;
+  }
+.btn{
+  margin-top: 10px;
+}
+}
